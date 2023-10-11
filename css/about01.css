@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url('font.css');
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    color: #585858;
+    font-weight: 400;
+}
+
+.inner {max-width: 1400px; margin: 0 auto;}
+
+.mainbg {position: relative; width: 85vw; margin: 0 auto; height: 500px;}
+.mainbg > figure {background: url(../img/StoryImg.jpg) no-repeat center/cover; width: 100%; height: 100%; border-radius: 25px; clip-path: polygon(40px 0, calc(100% - 40px) 0, 100% 40px, 100% calc(100% - 40px), calc(100% - 40px) 100%, 40px 100%, 0 calc(100% - 40px), 0 40px);}
+.mainbg .mainbg-txt {position: absolute; right: 5%; bottom: 60px; color: #fff; text-align: right;}
+.mainbg .mainbg-txt p:nth-child(1) {font-size: 22px;}
+.mainbg .mainbg-txt p:nth-child(2)  {font-size: 36px; font-weight: 600;}
+
+.container {color: #8c5f46; padding: 100px 0; margin-top: 100px;} 
+.maintxt {width: 70%; float: left;}
+.maintxt h2 {display: inline-block; position: relative; border-bottom: 1px solid #8c5f46; padding-bottom: 10px;}
+.maintxt h2:before {position: absolute; left: 0; bottom: -1px; width: 800px; height: 1px; background: #c8a59180; content: '';}
+
+.title_area .tit_outline {float: right; width: 30%; height: 250px; text-align: right; margin-top: -30px;}
+
+.maintxt-area {float: left;}
+.container .text_area > figure {float: right; width: 800px; height: 600px;}
+.container .text_area > figure img {width: 100%; height: 100%;}
+.container .text_area  .check {font-size: 18px; font-weight: 600; margin: 30px 0;}
+.container .text_area p {margin-bottom: 20px; line-height: 1.7; font-size: 16px; }
+
+
+.container .text_area .tit {float: left; display: block; width: 85px; background: #f3f0ee; padding: 5px 25px; border-radius: 25px;}
+.container .text_area span {display: inline-block; margin-left: 10px; line-height: 1.7;}
+
+
+/* work_area */
+.hall_group .title_area .left_title h2 {display: block;}
+.hall_group .title_area .left_title h2::before {width: 35%;}
+
+.work_area {width: 1200px; margin-right: 210px;}
+.hall_group .hall_list > li figure img {max-width: 100%; height: 100%;}
+
+/* .restaurant */
+.restaurant {width: 1200px; margin-left: 210px; overflow: hidden;}
+.hall_group.do_hall {background: #fff;}
+
+/* 문의 */
+article {position: relative; margin: 0 auto; width: 1400px; height: 200px;}
+article .tel_area {display: block; position: absolute; top: 0; right: 180px; font-size: 20px; color: #8c5f46; text-align: right;}
+article .Reservation a {display: block; float: right; background: #c8a591; padding: 10px 35px; font-size: 20px; color: #fff; transition: all 0.3s;}
+article .Reservation a:hover, article .Reservation a:focus {background: #8c5f46; transition: all 0.3s;}
+article .Reservation:after {position: absolute; left: 0; top: 20%;content: ''; display: block; width: 70%; height: 1px; background:  #c8a591;}
+
+
+
+

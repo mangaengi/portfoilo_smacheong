@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* 공통요소 */
+.inner {max-width: 600px; margin: 0 30px;}
+section {padding: 50px 0;}
+section .big {font-size: 16px;}
+.title_area .tit_outline {font-size: 68px;}
+.title_area h2 {font-size: 27px;}
+
+body {overflow-x: hidden;}
+.gnb , .top_header .book_area > .btn_book {display: none;}
+
+/* 로고 */
+header {height: 75px;}
+header .top_header {height: 40px;}
+header .top_header .logo > a {background-size: 70%; position: absolute; top: -10px; transform: translateX(-50%);}
+.top_header .book_area {right: 0;}
+.top_header .sns_area {left: 5%;}
+
+/* 모바일 gnb */
+.md_recom {display: block; height: 40px; background: rgba(153,153,153,.9); margin: -25px 0 0 0; text-align: center;} 
+.md_recom .md_btn {margin-left: -20%; color: #fff; font-size: 13px; padding: 10px 0; z-index: 10;}
+.md_recom .md_btn li {float: left; height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s;}
+.md_recom .md_btn li:hover {background: #575757;}
+
+/* .mainbg */
+.mainbg {width: 100%; clip-path:none;}
+
+.mainbg > figure {clip-path: none; border-radius: 0;}
+
+.mainSlide .toptxt {top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.mainbg .mainbg-txt {bottom: 30px;}
+.mainbg .mainbg-txt p:nth-child(1) {font-size: 15px;}
+.mainbg .mainbg-txt p:nth-child(2)  {font-size: 26px;}
+
+
+/* Reservation */
+.Reservation .left-txt .small-txt {font-size: 17px;}
+.Reservation .left-txt .big-txt {font-size: 30px;}
+
+.Reservation .right-txt p {font-size: 15px;}
+
+
+/* announcement */
+.announcement {width: 570px; margin-bottom: 60px;}
+.announcement-Img {display: none;}
+
+.announcement-txt {float: none; width: 100%;}
+.announcement-txt h3 {font-size: 20px; padding: 20px 0 0 0;}
+.announcement-txt .numtitle {width: 400px;}
+
+.announcement-txt ul li {margin: 0 0 10px 30px;}
+
+
+/* footer */
+footer {padding: 60px 50px; height: 800px;}
+footer .top {width: 570px; padding: 0;}
+footer address {float: none; }
+footer address p {font-size: 20px; margin-bottom: 50px;}
+
+footer .outtro {float: none; width: 40%;}
+footer .outtro li {font-size: 20px;}
+
+footer .outtro p {font-size: 14px;}
+
+footer .MobileImg {text-align: center;}
+footer .MobileImg img {margin-bottom: 10px; }
+footer .MobileImg .copy {font-size: 12px; color: #818080;}
+
+footer address figure {display: none;} /* pc버전 로고 */
+footer .MobileImg {display: block;}/* 모바일버전 로고 */
+
+/* btnTop */
+.btnTop {width: 45px; height: 45px; right: 50px;}
+.btnTop img {margin: -8px 0 0 -13px;}

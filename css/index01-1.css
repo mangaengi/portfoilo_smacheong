@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* 공통요소 */
+.inner {max-width: 600px; margin: 0 30px;}
+section {padding: 50px 0;}
+section .big {font-size: 16px;}
+.title_area .tit_outline {font-size: 68px;}
+.title_area h2 {font-size: 27px;}
+
+body {overflow-x: hidden;}
+.gnb , .top_header .book_area > .btn_book {display: none;}
+
+/* 로고 */
+header {height: 75px;}
+header .top_header {height: 40px;}
+header .top_header .logo > a {background-size: 70%; position: absolute; top: -10px; transform: translateX(-50%);}
+.top_header .book_area {right: 0;}
+.top_header .sns_area {left: 5%;}
+
+/* 모바일 gnb */
+.md_recom {display: block; height: 40px; background: rgba(153,153,153,.9); margin: -25px 0 0 0; text-align: center;} 
+.md_recom .md_btn {margin-left: -40%; color: #fff; font-size: 13px; padding: 10px 0; z-index: 10;}
+.md_recom .md_btn li {float: left; height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s;}
+.md_recom .md_btn li:hover {background: #575757;}
+
+
+/* .mainSlide */
+.mainSlide {width: 100%; clip-path:none;}
+.mainSlide::before {position: absolute; content: ''; width: 570px; height: 560px; left: 4%; top: 10%; border: 1px solid #fff; z-index: 5; clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px); opacity: 0.5;}
+.mainSlide .toptxt {top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.mainSlide .toptxt .top {font-size: 16px;}
+.mainSlide .toptxt .mid {font-size: 50px;}
+
+.mainSlide .cettxt .cttxt {font-size: 20px;}
+
+.mainSlide .prev , .mainSlide .next , .one {display: none;}
+
+/* story */
+#story {margin: 0 100px;}
+#story h2 {font-size: 18px;}
+#story .title_area {float: none; width: 100%;}
+#story .title_area .tit_outline {text-align: center; margin-bottom: 30px;}
+#story .story_text {float: none; width: 100%; background-size: 14%;}
+#story .story_text .text {width: 270px; font-size: 15px;}
+
+/* show */
+.show .title_area {float: none; width: 100%;}
+.show .title_area .left_title {float: none; width: 100%;}
+.show .title_area .left_title h2 {font-size: 27px;}
+.show .title_area .left_title .big {width: 48%;}
+.show .title_area .tit_outline {width: 48%; margin-bottom: 50px;}
+
+.show .show_group > li {float: none; width: 100%; padding: 50px 0; margin-bottom: 30px;  box-shadow: 2px 8px 0 rgba(0,0,0,0.1);}
+.show .show_group > li + li {margin-left: 0;}
+
+.show .show_group img {width: 200px; height: 280px; margin-left: 20px;}
+.show .show_group .show_info {width: 55%; margin-left: 0px;}
+
+.show .show_info .show_cat .show_title_link {font-size: 20px;}
+.show .show_info .detail_list > li {font-size: 14px;}
+
+.show .show_info .show_cat span {clip-path: polygon(5px 0, calc(100% - 5px) 0, 100% 5px, 100% calc(100% - 5px), calc(100% - 5px) 100%, 5px 100%, 0 calc(100% - 5px), 0 5px);}
+
+.show .show_info .ex_info {font-size: 14px;}
+.show .show_info .ex_info dt {font-weight: 600;}
+
+.show .show_info .btn_area {margin-left: 150px;}
+.show .show_info .btn_area > a {text-align: center; display: block; width: 60px; height: 15px; line-height: 1.1; margin: 0 0 10px 0; font-size: 14px;}
+
+/* hall_group */
+.hall_group .title_area {position: relative;}
+.hall_group .title_area .left_title {float: none; width: 100%; padding: 30px 0;}
+.hall_group .title_area .left_title h2:before {width: 25%;}
+.hall_group .title_area .tit_outline {float: none; position: absolute; right: 0; top: -15px; width: 40%;}
+
+.hall_group .title_area .left_title .big {margin-bottom: 60px;}
+
+.hall_group .hall_list > li {width: calc(100%/2 - 5%); margin-left: 5%; margin-bottom: 40px;}
+.hall_group .hall_list > li figure {height: 177px;}
+
+.hall_group .hall_list .hall_text .title {font-size: 18px;}
+.hall_group .hall_list .hall_text .text {font-size: 14px;}
+
+.hall_group .hall_list .hall_text .btn_view:before {width: 40%;}
+.hall_group .hall_list figure:hover + .hall_text .btn_view:after {width: 40%;}
+
+/* 삼청각의 맛 _do_hall */
+.hall_group.do_hall li {width: 570px; height: 500px; margin-bottom: 50px;}
+.hall_group.do_hall .title_area .tit_outline {width: 30%;}
+.hall_group.do_hall .hall_list figure {width: 100%;}
+.hall_group.do_hall > .hall_list > li figure:before {width: 570px;height: 500px;}
+
+.hall_group.do_hall .hall_list .hall_text .title {font-size: 20px;}
+
+.hall_group.do_hall  .hall_list .hall_text {width: 550px;}
+.hall_group.do_hall  .hall_list .hall_text .btn_view:before {position: absolute; top: 50%; left: 120px; background: rgba(200, 165, 145, 0.5); width: 40%; height: 1px; content: '';}
+.hall_group.do_hall  .hall_list .hall_text .btn_view:after {position: absolute; top: 50%; left: 120px; background: #8c5f46; width: 0; height: 1px; content: ''; transition: all 0.8s;}
+.hall_group.do_hall .hall_list figure:hover + .hall_text .btn_view:after {width: 40%;}
+
+/* event - 새단장 개관 */
+.event .event_text {left: 35%; }
+.event .event_text .text1 {font-size: 13px;}
+.event .event_text .text2 {font-size: 24px;}
+.event .event_text .btn_more {font-size: 16px;}
+
+/* 찾아오시는길 / 이용안내 */
+.news .left_area {float: none; width: 100%; margin-bottom: 80px;}
+.news .use_list > li .use_text h4 {font-size: 16px;}
+.news .use_list > li .use_text .text {font-size: 14px;}
+
+.news .notice_list .list_title {font-size: 16px;}
+.news .notice_list .list_text {font-size: 14px;}
+
+
+.news .right_area {float: none; width: 100%;}
+.news .right_area .map iframe {height: 420px;}
+
+.news .right_area .address {font-size: 14px;}
+.news .right_area .address dt {font-size: 16px;}
+.news .right_area .address dd {width: 200px;}
+.news .right_area .btn_area {font-size: 14px;}
+.news .right_area .btn_area a {padding: 8px 20px;}
+
+/* footer */
+footer {padding: 60px 50px; height: 800px;}
+footer .top {width: 570px; padding: 0;}
+footer address {float: none; }
+footer address p {font-size: 20px; margin-bottom: 50px;}
+
+footer .outtro {float: none; width: 40%;}
+footer .outtro li {font-size: 20px;}
+
+footer .outtro p {font-size: 14px;}
+
+footer .MobileImg {text-align: center;}
+footer .MobileImg img {margin-bottom: 10px; }
+footer .MobileImg .copy {font-size: 12px; color: #818080;}
+
+footer address figure {display: none;} /* pc버전 로고 */
+footer .MobileImg {display: block;}/* 모바일버전 로고 */
+
+/* btnTop */
+.btnTop {width: 45px; height: 45px; right: 50px;}
+.btnTop img {margin: -8px 0 0 -13px;}
+
+/* .btn-menu  */
+
+.btn-menu {width: 450px; padding: 20px 30px;}
+
+
+
+
