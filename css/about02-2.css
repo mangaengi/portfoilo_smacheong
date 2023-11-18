@@ -94,7 +94,7 @@ footer .MobileImg {display: block;}/* 모바일버전 로고 */
 /* btnTop */
 .btnTop {width: 45px; height: 45px; right: 30px;}
 .btnTop a {display: block;}
-.btnTop img {margin: -10px -15px;}
+.btnTop img {width: 100%; height: 100%;}
 
 /* .btn-menu  */
 .btn-menu {width: 100%; padding: 20px 30px; box-sizing: border-box;}

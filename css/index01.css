@@ -209,8 +209,8 @@ footer .outtro .po2 span {margin-right: 30px; font-weight: 600;}
 footer .outtro .po3 p {display: inline-block; margin-right: 20px;}
 footer .MobileImg {display: none;}
 
-.btnTop {width: 60px; height: 60px; border-radius: 50%; font-size: 20px; background: #fff; border: none; position: fixed; bottom: 50px; right: 100px; display: none; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;} 
-.btnTop img {margin: 1px 0 0 -5px;}
+.btnTop {width: 60px; height: 60px; border-radius: 50%; font-size: 20px; background: #fff; border: none; position: fixed; bottom: 50px; right: 100px; display: none; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 0;} 
+.btnTop a {display: block;}
 
 /* btn-menu*/
 .btn-menu {overflow: scroll;  position: fixed; right: -150%; top: 0; background: #202020;  height: 100vh; padding: 30px 40px; transition: all 0.5s; z-index: 11; box-sizing: border-box;}
