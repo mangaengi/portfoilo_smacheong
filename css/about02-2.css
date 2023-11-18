@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-body {overflow-x: hidden;}
-.inner {width: 570px; margin: 0 auto;}
+#wrap {max-width: 100%; overflow: hidden; }
+.inner {width: 100%; margin: 20px auto; padding: 0 15px; box-sizing: border-box;}
 .gnb , .top_header .book_area > .btn_book {display: none;}
 
 /* 로고 */
@@ -14,12 +14,11 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 /* 모바일 gnb */
 .md_recom {display: block; height: 40px; background: rgba(153,153,153,.9); margin: -25px 0 0 0; text-align: center;} 
 .md_recom .md_btn { max-width: 640px; margin-left: -40%; color: #fff; font-size: 13px; padding: 10px 0; z-index: 10;}
-.md_recom .md_btn li {float: left; height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s;}
+.md_recom .md_btn li {float: left; height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s; overflow: hidden; white-space: nowrap;}
 .md_recom .md_btn li:hover {background: #575757;}
 
 /* .mainSlide */
-.mainSlide {width: 100%; clip-path:none;}
-.mainSlide::before {position: absolute; content: ''; width: 570px; height: 470px; left: 4%; top: 10%; border: 1px solid #fff; z-index: 5; clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px); opacity: 0.5;}
+.mainSlide {width: 100%; height: 500px; clip-path:none;}
 .mainSlide .toptxt {top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
 .mainSlide .toptxt .top {font-size: 16px;}
 .mainSlide .toptxt .mid {font-size: 50px;}
@@ -29,54 +28,58 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 .mainSlide .prev , .mainSlide .next , .one {display: none;}
 
 /* poto */
+.poto {padding: 15px; box-sizing: border-box;}
+.poto .title_area {height: 0;}
+.poto .title_area  h2 {float: none; width: 100%; font-size: 27px;}
+.poto .title_area .tit_outline  {width: 100%; font-size: 60px; text-align: right;}
+.poto .pototxt {width: 100%; height: 100px; margin-top: 0; font-size: 16px;}
 
-.poto  .title_area  h2 {float: none; width: 100%; font-size: 27px;}
-.poto .title_area .tit_outline  {width: 40%; font-size: 68px; }
-.poto .pototxt {margin-top: 0; font-size: 16px;}
-
-.poto > .potoSwiper {width: 580px; height: 550px;}
-.poto > .potoSwiper img {width: 580px; max-height: 400px;}
-.potoSwiper .swiper-pagination {width: 50%; left: 68%; bottom: 10%;}
+.poto > .potoSwiper {width: 100%; height: 700px;}
+.poto > .potoSwiper .swiper-wrapper {height: 450px;}
+.poto > .potoSwiper .swiper-wrapperimg {width: 100%; height: 600px;}
+.potoSwiper .swiper-pagination {width: 55%; right: 50%; bottom: 0; transform: translateX(-50%);}
 
 .potoSwiper .swiper-pagination span {padding: 8px 8px;  border: 1px solid #8c5f46; border-radius: 50%; font-size: 12px; line-height: 10px;}
 
 
 /* Ilhwadang-txt */
-.Ilhwadang-txt {height: 500px;}
-.Ilhwadang-txt .dangtxt h3 {width: 300px; font-size: 18px;}
-.Ilhwadang-txt .dangtxt {width: 280px; margin-left: 30px; font-size: 15px;}
+.Ilhwadang-txt {height: 100%; padding: 20px; box-sizing: border-box;}
+.Ilhwadang-txt .dangtxt h3 {font-size: 18px;}
+.Ilhwadang-txt .dangtxt {float: none; width: 100%; font-size: 15px;}
 
 
-.Ilhwadang-txt ul {margin: 230px 0 0 40px;}
+.Ilhwadang-txt ul {width: 100%; margin: 0; padding: 30px 0; box-sizing: border-box;}
 .Ilhwadang-txt li {font-size: 14px;}
 
 .Ilhwadang-txt .floor-info {margin-right: 10px;}
 
 /* 안내 / 문의 */
 article {margin: 0 auto;}
-article .articles h2 {width: 570px; font-size: 20px;}
+article .articles h2 {width: 100%; font-size: 20px;}
 article .articles h2:after {top: 22%; width: 18%;}
 article .articles h2 span {font-size: 16px; font-weight: 400;}
 article .tel_area {top: 80px; font-size: 16px;}
 
-article .Reservation a {top: 80px; font-size: 16px; padding: 10px 45px; }
+article .Reservation {margin-top: -45px;}
+article .Reservation a {top: 80px; font-size: 16px; padding: 13px 40px; }
 
 /* .dofoto  */
-.Ilhwadang-swiper .dofoto {width: 570px; height: 361px;}
-.content {height: 5200px;}
+.Ilhwadang-swiper .dofoto {float: none; width: 100%; height: 361px;}
+.content {height: 4750px;}
 
-.dofoto-txt {margin-left: 30px;}
-
-.Ilhwadang-swiper:nth-child(2) , .Ilhwadang-swiper:nth-child(4) , .Ilhwadang-swiper:nth-child(6) {padding-left: 0;}
-
+.Ilhwadang-swiper:nth-child(2) , .Ilhwadang-swiper:nth-child(4) , .Ilhwadang-swiper:nth-child(6) {padding-left: 10px;}
+.Ilhwadang-swiper .dofoto-txt {width: 100%; padding: 20px 30px; box-sizing: border-box;}
+.Ilhwadang-swiper .dofoto-txt h4 {font-size: 20px;}
+.Ilhwadang-swiper .dofoto-txt strong {font-size: 16px;}
+.Ilhwadang-swiper .dofoto-txt .txt {font-size: 14px;}
 
 /* footer */
-footer {padding: 60px 50px; height: 800px;}
-footer .top {width: 570px; padding: 0;}
+footer {padding: 60px 50px; height: 980px; box-sizing: border-box;}
+footer .top {width: 100%; padding: 0;}
 footer address {float: none; }
 footer address p {font-size: 20px; margin-bottom: 50px;}
 
-footer .outtro {float: none; width: 40%;}
+footer .outtro {float: none; width: 50%;}
 footer .outtro li {font-size: 20px;}
 
 footer .outtro p {font-size: 14px;}

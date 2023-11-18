@@ -1,6 +1,4 @@
 
-
-
 /* 고정헤드 */
 $(function(){
     let $header = $('.gnb'),

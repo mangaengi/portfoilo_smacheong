@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 /* 공통요소 */
-.inner {max-width: 600px; margin: 0 30px;}
-section {padding: 50px 0;}
+#wrap {max-width: 100%; overflow: hidden; }
+.inner {width: 100%; margin: 0 auto; padding: 0 15px; box-sizing: border-box;}
+
 section .big {font-size: 16px;}
-.title_area .tit_outline {font-size: 68px;}
+.title_area .tit_outline {font-size: 60px;}
 .title_area h2 {font-size: 27px;}
 
-body {overflow-x: hidden;}
 .gnb , .top_header .book_area > .btn_book {display: none;}
 
 /* 로고 */
@@ -18,9 +18,9 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 .top_header .sns_area {left: 5%;}
 
 /* 모바일 gnb */
-.md_recom {display: block; height: 40px; background: rgba(153,153,153,.9); margin: -25px 0 0 0; text-align: center;} 
+.md_recom {display: block; height: 40px; background: rgba(153,153,153,.9); margin: -25px 0 0 0; text-align: center; overflow: hidden;} 
 .md_recom .md_btn {margin-left: -20%; color: #fff; font-size: 13px; padding: 10px 0; z-index: 10;}
-.md_recom .md_btn li {float: left; height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s;}
+.md_recom .md_btn li {float: left; width: calc(100%/3); height: 40px; margin-top: -10px; line-height: 40px; transition: all 0.3s;}
 .md_recom .md_btn li:hover {background: #575757;}
 
 /* .mainbg */
@@ -35,30 +35,30 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 
 
 /* Reservation */
+.Reservation {height: 250px;}
 .Reservation .left-txt .small-txt {font-size: 17px;}
-.Reservation .left-txt .big-txt {font-size: 30px;}
 
+.Reservation .left-txt .big-txt {font-size: 18px;}
 .Reservation .right-txt p {font-size: 15px;}
-
+.Reservation .right-txt span {display: block; font-size: 14px;}
 
 /* announcement */
-.announcement {width: 570px; margin-bottom: 60px;}
+.announcement {width: 100%; margin-bottom: 60px;}
 .announcement-Img {display: none;}
 
 .announcement-txt {float: none; width: 100%;}
 .announcement-txt h3 {font-size: 20px; padding: 20px 0 0 0;}
-.announcement-txt .numtitle {width: 400px;}
+.announcement-txt .numtitle {width: 100%;}
 
-.announcement-txt ul li {margin: 0 0 10px 30px;}
-
+.announcement-txt ul li {margin: 0 0 10px 30px; font-size: 15px; letter-spacing: -1px;}
 
 /* footer */
-footer {padding: 60px 50px; height: 800px;}
-footer .top {width: 570px; padding: 0;}
+footer {padding: 60px 50px; height: 980px; box-sizing: border-box;}
+footer .top {width: 100%; padding: 0;}
 footer address {float: none; }
 footer address p {font-size: 20px; margin-bottom: 50px;}
 
-footer .outtro {float: none; width: 40%;}
+footer .outtro {float: none; width: 50%;}
 footer .outtro li {font-size: 20px;}
 
 footer .outtro p {font-size: 14px;}
@@ -71,5 +71,5 @@ footer address figure {display: none;} /* pc버전 로고 */
 footer .MobileImg {display: block;}/* 모바일버전 로고 */
 
 /* btnTop */
-.btnTop {width: 45px; height: 45px; right: 50px;}
+.btnTop {width: 45px; height: 45px; right: 50px;} 
 .btnTop img {margin: -8px 0 0 -13px;}
