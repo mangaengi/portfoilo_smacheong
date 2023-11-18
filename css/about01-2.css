@@ -54,7 +54,7 @@ section {padding: 0 15px; box-sizing: border-box;}
 .hall_group .title_area .left_title .big {font-size: 15px; margin-bottom: 0;}
 
 .hall_group .hall_list > li {width: calc(100%/2 - 5%); margin-left: 5%; margin-bottom: 40px;}
-.hall_group .hall_list > li a {display: block; font-size: 0; padding: 10px; box-sizing: border-box;}
+.hall_group .hall_list > li a {display: block; font-size: 0;}
 .hall_group .hall_list > li figure {height: 100%; margin-bottom: 15px;}
 
 .hall_group .hall_list .hall_text .btn_view {width: 40%;}
@@ -109,8 +109,9 @@ footer address figure {display: none;} /* pc버전 로고 */
 footer .MobileImg {display: block;}/* 모바일버전 로고 */
 
 /* btnTop */
-.btnTop {width: 45px; height: 45px; right: 50px;}
-.btnTop img {margin: -8px 0 0 -13px;}
+.btnTop {width: 45px; height: 45px; right: 30px;}
+.btnTop a {display: block;}
+.btnTop img {margin: -10px -15px;}
 
 /* .btn-menu  */
 .btn-menu {width: 100%; padding: 20px 30px; box-sizing: border-box;}

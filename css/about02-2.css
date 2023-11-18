@@ -29,12 +29,12 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 
 /* poto */
 .poto {padding: 15px; box-sizing: border-box;}
-.poto .title_area {height: 0;}
+.poto .title_area {height: 150px;}
 .poto .title_area  h2 {float: none; width: 100%; font-size: 27px;}
 .poto .title_area .tit_outline  {width: 100%; font-size: 60px; text-align: right;}
 .poto .pototxt {width: 100%; height: 100px; margin-top: 0; font-size: 16px;}
 
-.poto > .potoSwiper {width: 100%; height: 700px;}
+.poto > .potoSwiper {width: 100%; height: 550px;}
 .poto > .potoSwiper .swiper-wrapper {height: 450px;}
 .poto > .potoSwiper .swiper-wrapperimg {width: 100%; height: 600px;}
 .potoSwiper .swiper-pagination {width: 55%; right: 50%; bottom: 0; transform: translateX(-50%);}
@@ -92,5 +92,9 @@ footer address figure {display: none;} /* pc버전 로고 */
 footer .MobileImg {display: block;}/* 모바일버전 로고 */
 
 /* btnTop */
-.btnTop {width: 45px; height: 45px; right: 50px;}
-.btnTop img {margin: -8px 0 0 -13px;}
+.btnTop {width: 45px; height: 45px; right: 30px;}
+.btnTop a {display: block;}
+.btnTop img {margin: -10px -15px;}
+
+/* .btn-menu  */
+.btn-menu {width: 100%; padding: 20px 30px; box-sizing: border-box;}
