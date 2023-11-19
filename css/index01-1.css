@@ -68,7 +68,7 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 .show .show_info .ex_info {height: 100%; font-size: 14px;}
 .show .show_info .ex_info dt {font-weight: 600;}
 
-/* .show .show_info .btn_area {margin-left: 150px;} */
+
 .show .show_info .btn_area > a {text-align: center; display: block; width: 60px; height: 15px; line-height: 1.1; margin: 0 0 10px 0; font-size: 14px;}
 
 /* hall_group */

@@ -2,7 +2,9 @@
 
 #wrap {max-width: 100%; overflow: hidden; }
 .inner {width: 100%; margin: 0 auto;}
+section {margin-bottom: 50px; padding: 15px; box-sizing: border-box;}
 .gnb , .top_header .book_area > .btn_book {display: none;}
+.title_area h2 {font-size: 27px;}
 
 /* 로고 */
 header {height: 75px;}
@@ -44,26 +46,24 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 .container .text_area p ,.container .text_area span  {font-size: 14px;}
 
 /* hall_group */
-section {padding: 0 15px; box-sizing: border-box;}
-.hall_group .title_area {position: relative;}
-.hall_group .title_area .left_title {float: none; width: 100%;}
-.hall_group .title_area .left_title h2 {font-size: 27px;}
-.hall_group .title_area .left_title h2:before {width: 25%;}
-.hall_group .title_area .tit_outline {float: none; width: 100%;}
 
-.hall_group .title_area .left_title .big {font-size: 15px; margin-bottom: 0;}
+.hall_group .title_area {position: relative; margin-bottom: 0;}
+.hall_group .title_area .left_title {float: none; width: 100%; padding: 30px 0; }
+.hall_group .title_area .left_title h2:before {width: 25%;}
+.hall_group .title_area .tit_outline {float: none; position: absolute; right: 0; top: 0; width: 100%; text-align: right;}
+
+.hall_group .title_area .left_title .big {margin-bottom: 0;}
 
 .hall_group .hall_list > li {width: calc(100%/2 - 5%); margin-left: 5%; margin-bottom: 40px;}
-.hall_group .hall_list > li a {display: block; height: 130px; font-size: 0;}
+.hall_group .hall_list > li a {display: block; font-size: 0;}
 .hall_group .hall_list > li figure {height: 100%; margin-bottom: 15px;}
 
-.hall_group .hall_list .hall_text .btn_view {width: 40%;}
-.hall_group .hall_list .hall_text .title {font-size: 16px; margin-bottom: 10px;}
-.hall_group .hall_list .hall_text .text {font-size: 12px;}
+.hall_group .hall_list .hall_text .title {font-size: 16px;}
+.hall_group .hall_list .hall_text .text {font-size: 13px;}
 
+.hall_group .hall_list .hall_text .btn_view {width: 40%;}
 .hall_group .hall_list .hall_text .btn_view:before {width: 45%; left: 0;}
 .hall_group .hall_list .hall_text .btn_view:after {left: 0;}
-
 .hall_group .hall_list figure:hover + .hall_text .btn_view:after {width: 45%;}
 
 /* 삼청각의 맛 _do_hall */

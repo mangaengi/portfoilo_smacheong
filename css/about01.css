@@ -38,7 +38,7 @@ body {
 .hall_group .title_area .left_title h2::before {width: 35%;}
 
 .work_area {width: 1200px; margin-right: 210px;}
-.hall_group .hall_list > li figure img {max-width: 100%; height: 100%;}
+.hall_group .hall_list > li figure img {width: 100%; height: 100%;}
 
 /* .restaurant */
 .restaurant {width: 1200px; margin-left: 210px; overflow: hidden;}
