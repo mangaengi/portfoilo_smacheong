@@ -53,9 +53,9 @@ section {padding: 0 15px; box-sizing: border-box;}
 
 .hall_group .title_area .left_title .big {font-size: 15px; margin-bottom: 0;}
 
-.hall_group .hall_list > li {width: calc(100%/2 - 5%); height: 100%; margin-left: 5%; margin-bottom: 40px;}
-.hall_group .hall_list > li a {display: block; max-height: 100%; font-size: 0;}
-.hall_group .hall_list > li figure {max-height: 100%; margin-bottom: 15px;}
+.hall_group .hall_list > li {width: calc(100%/2 - 5%); margin-left: 5%; margin-bottom: 40px;}
+.hall_group .hall_list > li a {display: block; height: 130px; font-size: 0;}
+.hall_group .hall_list > li figure {height: 100%; margin-bottom: 15px;}
 
 .hall_group .hall_list .hall_text .btn_view {width: 40%;}
 .hall_group .hall_list .hall_text .title {font-size: 16px; margin-bottom: 10px;}
