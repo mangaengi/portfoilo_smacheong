@@ -52,7 +52,7 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 .hall_group .title_area .left_title h2:before {width: 25%;}
 .hall_group .title_area .tit_outline {float: none; position: absolute; right: 0; top: 0; width: 100%; text-align: right;}
 
-.hall_group .title_area .left_title .big {margin-bottom: 0;}
+.hall_group .title_area .left_title .big {margin-bottom: 0; font-size: 16px;}
 
 .hall_group .hall_list > li {width: calc(100%/2 - 5%); margin-left: 5%; margin-bottom: 40px;}
 .hall_group .hall_list > li a {display: block; font-size: 0;}
