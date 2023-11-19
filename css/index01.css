@@ -122,7 +122,7 @@ header .top_header .logo > a {display: inline-block; width: 161px; height: 60px;
 
 .hall_group .hall_list > li figure:hover:before {opacity: 0.3;}
 .hall_group .hall_list > li figure img {max-width: 100%; height: auto;}
-.hall_group .hall_list .hall_text {position: relative;}
+.hall_group .hall_list .hall_text {position: relative; padding-left: 10px; box-sizing: border-box;}
 .hall_group .hall_list .hall_text .title {font-size: 20px; font-weight: 500; color: #8c5f46; margin-bottom: 15px;}
 .hall_group .hall_list .hall_text .text {color: #8c5f46;}
 
