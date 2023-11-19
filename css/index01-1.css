@@ -3,7 +3,7 @@
 /* 공통요소 */
 #wrap {max-width: 100%; overflow: hidden; }
 .inner {width: 100%;}
-section {margin-bottom: 50px; padding: 15px; box-sizing: border-box;}
+section {padding: 15px; box-sizing: border-box;}
 section .big {font-size: 16px;}
 .title_area .tit_outline {font-size: 55px;}
 .title_area h2 {font-size: 27px;}
@@ -42,7 +42,7 @@ header .top_header .logo > a {background-size: 70%; position: absolute; top: -10
 #story h2 {font-size: 18px;}
 #story .title_area {float: none; width: 100%;}
 #story .title_area .tit_outline {text-align: center; margin-bottom: 30px;}
-#story .story_text {float: none; width: 100%; padding: 0 50px; box-sizing: border-box;}
+#story .story_text {float: none; width: 100%; padding: 0 35px; box-sizing: border-box;}
 #story .story_text .text {width: 270px; font-size: 15px;}
 #story .story_text figure {text-align: right; margin-top: 0;}
 #story .story_text figure img {width: 18%;}

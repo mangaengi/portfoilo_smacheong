@@ -74,12 +74,12 @@ article .Reservation a {top: 80px; font-size: 16px; padding: 13px 40px; }
 .Ilhwadang-swiper .dofoto-txt .txt {font-size: 14px;}
 
 /* footer */
-footer {padding: 60px 50px; height: 980px; box-sizing: border-box;}
+footer {padding: 50px 30px 0 30PX; height: 900px; box-sizing: border-box;}
 footer .top {width: 100%; padding: 0;}
 footer address {float: none; }
 footer address p {font-size: 20px; margin-bottom: 50px;}
 
-footer .outtro {float: none; width: 50%;}
+footer .outtro {float: none; width: 60%;}
 footer .outtro li {font-size: 20px;}
 
 footer .outtro p {font-size: 14px;}
